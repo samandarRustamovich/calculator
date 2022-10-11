@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background: rgb(238, 234, 224);
+}
+body:hover
+{
+    background: rgb(83, 83, 82);
+}
+.format
+{
+    margin-top:200px ;
+    background: rgba(171, 174, 175, 0.733);
+    border: 1px solid;
+    margin-left: 500px;
+    height: 340px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+.ekran
+{
+    border-radius: 5px ;
+    width: 250px;
+    text-align: left;
+    background: white;
+    height: 40px;
+    size: 30px;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+
+}
+.button
+{
+    margin-left: 10px;   
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: black;
+    background: rgba(213, 226, 226, 0.781);
+    border-radius: 50%;
+    
+}
+.operator
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:  rgba(226, 231, 231, 0.781);
+}
+.button:hover
+{
+    background: rgb(248, 252, 8);
+    border: none;
+    box-shadow: 3px 3px 2px;
+}
+.operator:hover
+{
+    background: rgb(151, 243, 13);
+    box-shadow: 3px 3px 2px;
+    size: 10px;
+    border: none;
+}
